@@ -17,7 +17,7 @@ export default function Home() {
         {/* Advanced Typography 4-Line Headline */}
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-white tracking-tighter leading-[1.2] mb-8">
           <span className="block">The only SaaS</span>
-          <span className="block">tools that you need to</span>
+          <span className="block">tools you need to</span>
           <span className="inline-block bg-gradient-to-r from-blue-400 to-blue-700 text-black px-3 py-1 rounded-md my-2 shadow-lg">
             turn your business
           </span>

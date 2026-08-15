@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Avelon | Lean Micro-SaaS Tools for Indie Hackers & Creators.",
-  description: "The only SaaS tools you need to turn your business into a big name.",
+  title: "Avelon - Fast Micro-SaaS Tools for Creators & Indie Hackers.",
+  description: "Supercharge your solo workflow with Avelon. Fast, affordable micro-SaaS tools built specifically for creators, freelancers, and indie hackers.",
   icons: {
     icon: "/logo.svg", 
   },
