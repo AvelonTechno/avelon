@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import WaitlistForm from "@/components/WaitlistForm";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
           <span className="block whitespace-nowrap">tools you need to</span>
           <span className="block whitespace-nowrap">
             <span className="inline-block bg-gradient-to-r from-blue-400 to-blue-700 text-black px-2 py-1 md:px-4 md:py-2 rounded-md my-2 shadow-lg">
-              turn your business
+              turn your BRAND
             </span>
           </span>
           <span className="block whitespace-nowrap">
@@ -33,28 +34,7 @@ export default function Home() {
           Stop paying for giant platforms when you only use 10% of the features. We build single-purpose, hyper-focused web apps that solve one problem flawlessly. Execute faster. Scale leaner.
         </p>
         
-        {/* Capture Form */}
-        <div className="w-full max-w-md flex flex-col items-center gap-4">
-          <form className="w-full flex flex-col sm:flex-row gap-2">
-            <input
-              type="email"
-              placeholder="Email Address"
-              required
-              className="flex-1 h-12 rounded-lg border border-zinc-800 bg-zinc-900/80 px-4 py-2 text-sm text-zinc-100 shadow-inner transition-colors placeholder:text-zinc-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
-            />
-            <button
-              type="submit"
-              className="inline-flex h-12 items-center justify-center rounded-lg bg-zinc-100 px-6 py-2 text-sm font-bold text-zinc-950 shadow-md transition-all hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 whitespace-nowrap"
-            >
-              Get Early Access
-            </button>
-          </form>
-          
-          {/* Responsive Micro-copy */}
-          <p className="text-xs md:text-sm text-zinc-500 font-medium mt-3">
-            Time-to-value: &lt; 2 minutes. Join other solo builders waiting for Tool 01.
-          </p>
-        </div>
+       <WaitlistForm/>
       </div>
 
       {/* Typographic Manifesto Footer */}
